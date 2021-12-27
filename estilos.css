@@ -1,0 +1,93 @@
+/*
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Delius Swash Caps', cursive;
+font-family: 'Rye', cursive;
+*/
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+h2 {
+    font-family: 'Rye', cursive;
+}
+
+.list-group li {
+    font-family: 'Rye', cursive;
+}
+
+.list-group li span {
+    font-family: 'Delius Swash Caps', cursive;
+}
+
+
+/*PAGINA LOGIN*/
+
+#bg_login {
+    background-image: url(IMG/bg_4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-attachment: fixed !important;
+}
+
+#bg_login_hijo {
+    height: 100vh;
+}
+
+.link_inicio {
+    list-style: none;
+    text-decoration: none;
+}
+
+#form_index {
+    background-color: #ffffffc9;
+}
+
+#form_index h1 {
+    color: #8C1F33;
+}
+
+
+/*PAGINA INICIO*/
+
+#inicio_container {
+    background-image: url(IMG/bg_sunny.jpg);
+    background-size: cover;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#inicio_container_2 h1 {
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+#inicio_container_2 p {
+    display: inline;
+    font-family: 'Delius Swash Caps', cursive;
+    color: whitesmoke;
+    background-color: royalblue;
+}
+
+#inicio_container_2 {
+    height: 100vh;
+    align-items: center;
+}
+
+
+/*SACAR FONDO Y BORDES DEL ACORDEON*/
+
+
+/*
+.accordion-item {
+    background-color: #ffffff00 !important;
+    border: none;
+}
+
+.accordion-button {
+    background-color: #ffffff00 !important;
+    border: none;
+}
+*/
