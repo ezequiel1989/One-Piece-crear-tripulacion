@@ -17,18 +17,18 @@
     <div class="container-fluid overflow-auto" id="inicio_container">
         <div class="container">
             <div class="row" id="inicio_container_2">
-                <div class="col d-flex align-items-center justify-content-center">
+                <div class="col d-flex align-items-center justify-content-center mb-3 mt-3">
                     <div>
                         <h1>Necesitás 5 miembros en tu tripulación para embarcarte</h1>
                         <div class="col-8">
                             <p>Pulsá el botón, ingresá los datos necesarios y luego presioná "Confirmar" para almacenar la información de tu nuevo pirata.</p>
                         </div>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn_nuevotrip">
                         Nuevo tripulante +
                         </button>
 
-                        <!-- Modal -->
+                        <!-- MODAL -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
@@ -46,7 +46,7 @@
                                                 <div class="col-6">
                                                     <input type="text" class="form-control" placeholder="Apodo" aria-label="Apodo">
                                                 </div>
-                                                <select class="form-select" aria-label="skill principal">
+                                                <select class="form-select mt-2" aria-label="skill principal">
                                                 <option selected>Selecciona skill principal</option>
                                                 <option value="1">Capitán</option>
                                                 <option value="2">Navegante</option>
@@ -59,6 +59,7 @@
                                             </select>
                                             </form>
                                         </div>
+                                        <!--FIN FORM-->
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
@@ -67,19 +68,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- FIN modal -->
+                        <!-- FIN MODAL -->
                     </div>
                 </div>
 
                 <div class="col">
-
-                    <!--ACORDEON-->
-
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <!--ACORDEONES-->
+                    <div class="accordion accordion-flush mb-3" id="accordionFlushExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Tripulante #1
+                                Tripulante #1:
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -101,7 +100,7 @@
                         <div class="accordion-item  mt-4">
                             <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                Tripulante #2
+                                Tripulante #2:
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -123,7 +122,7 @@
                         <div class="accordion-item mt-4">
                             <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                Tripulante #3
+                                Tripulante #3:
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -145,7 +144,7 @@
                         <div class="accordion-item mt-4">
                             <h2 class="accordion-header" id="flush-headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                Tripulante #4
+                                Tripulante #4:
                             </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
@@ -167,7 +166,7 @@
                         <div class="accordion-item mt-4">
                             <h2 class="accordion-header" id="flush-headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                Tripulante #5
+                                Tripulante #5: Zoro
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
@@ -187,9 +186,7 @@
                             </div>
                         </div>
                     </div>
-
                     <!--FIN ACORDEON-->
-
                 </div>
             </div>
         </div>

@@ -9,11 +9,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Rye', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .list-group li {
-    font-family: 'Rye', cursive;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .list-group li span {
@@ -21,7 +21,7 @@ h2 {
 }
 
 
-/*PAGINA LOGIN*/
+/* INDEX */
 
 #bg_login {
     background-image: url(IMG/bg_4.jpg);
@@ -41,7 +41,11 @@ h2 {
 }
 
 #form_index {
-    background-color: #ffffffc9;
+    /*background-color: #ffffffc9;*/
+    background-image: url(IMG/papiro2.png);
+    background-size: cover;
+    background-position: center;
+    border: none !important;
 }
 
 #form_index h1 {
@@ -49,7 +53,7 @@ h2 {
 }
 
 
-/*PAGINA INICIO*/
+/* TRIPULACIÓN */
 
 #inicio_container {
     background-image: url(IMG/bg_sunny.jpg);
